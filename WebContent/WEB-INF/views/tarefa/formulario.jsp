@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h3>Adicionar tarefas</h3>
-	<form:errors path="tarefa.descricao" cssStyle=""/>
+	<form:errors path="tarefa.descricao" cssStyle="color:red"/>
 	<form action="adicionaTarefa" method="post">
 		Descrição: <br />
 		<textarea name="descricao" rows="5" cols="100"></textarea>
